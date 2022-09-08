@@ -1,5 +1,5 @@
 {
-    "sketch": "kad01_Blink/kad01_Blink.ino",
+    "sketch": "kad02_LED/kad02_LED.ino",
     "port": "/dev/tty.usbserial-D309KH9Z",
     "board": "esp32:esp32:esp32",
     "configuration": "PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=115200,DebugLevel=none"
