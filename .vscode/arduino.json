@@ -1,5 +1,5 @@
 {
-    "sketch": "ESP32_button/ESP32_button.ino",
+    "sketch": "kad04_Switch/kad04_Switch.ino",
     "port": "/dev/tty.usbserial-D309KH9Z",
     "board": "esp32:esp32:esp32",
     "configuration": "PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=115200,DebugLevel=none"
