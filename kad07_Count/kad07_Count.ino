@@ -12,7 +12,9 @@ void loop() {
     if(b == 1 && flag == 0){
         count ++;
         flag = 1;
+        Serial.println(count);
     }else{
         flag = 0;
+        Serial.println(count);
     }
 }
