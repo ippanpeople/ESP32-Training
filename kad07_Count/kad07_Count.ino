@@ -13,9 +13,8 @@ void loop() {
         count ++;
         flag = 1;
         Serial.println(count);
-    }else{
+    }else if(b == 0 && flag == 1){
         flag = 0;
-        Serial.println(count);
     }
     delay(10);
 }
