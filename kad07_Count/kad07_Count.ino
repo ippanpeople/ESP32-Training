@@ -17,4 +17,5 @@ void loop() {
         flag = 0;
         Serial.println(count);
     }
+    delay(10);
 }
