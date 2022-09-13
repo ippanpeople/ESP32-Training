@@ -7,9 +7,9 @@ void setup() {
 
 void loop() {
     ledcWrite(0, 255);
-    delay(100);
+    delay(1000);
     ledcWrite(0, 127);
-    delay(100);
+    delay(1000);
     ledcWrite(0, 0);
-    delay(100);
+    delay(1000);
 }
