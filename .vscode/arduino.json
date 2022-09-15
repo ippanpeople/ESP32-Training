@@ -1,5 +1,5 @@
 {
-    "sketch": "kad11_CdS/kad11_CdS.ino",
+    "sketch": "kad12_CdS2LED/kad12_CdS2LED.ino",
     "port": "/dev/tty.usbserial-D309KH9Z",
     "board": "esp32:esp32:esp32",
     "configuration": "PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=115200,DebugLevel=none"
