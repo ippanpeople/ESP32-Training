@@ -14,14 +14,24 @@ void setup(){
 }
 
 void timeSignal(void){
-    double note_half = noteDuration*4;
-    double note_whole = noteDuration*8;
-    double note_16_th = noteDuration/2;
+    double note_half = noteDuration*4;//2分音符
+    double note_whole = noteDuration*8;//全音符
+    double note_16_th = noteDuration/2;//16分休符
 }
 
 void loop(){
-    if(digitalRead(btnPin) == HIGH){
-
+  if(digitalRead(btnPin) == HIGH){
+    //低い周波数から高い周波数へ
+    for(int i=25;i<120;i++){
+      ledcWriteTone(LEDC_CHANNEL_0, 20*i);
+      delay(noteDuration);
     }
-
+    //低い周波数から高い周波数へ
+    for(int i=120;i>=25;i--){
+      ledcWriteTone(LEDC_CHANNEL_0, 20*i);
+      delay(noteDuration);
+    }
+  }
+  //第2引数の周波数を0にすると音が消える
+  ledcWriteTone(LEDC_CHANNEL_0, 0);
 }
