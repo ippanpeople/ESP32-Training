@@ -1,7 +1,7 @@
 const int pwmPin = A10; //GPIO IO4ping
 const int btnPin = 17;
 bool flag = false;
-static uint8_t duty[5] = {63, 127, 191, 255, 0}; //アナログ出力のデューティ値
+static uint8_t duty[5] = {0, 63, 127, 191, 255}; //アナログ出力のデューティ値
 static int diff = 0;
 
 
