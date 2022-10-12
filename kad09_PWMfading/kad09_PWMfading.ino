@@ -7,8 +7,8 @@ void setup() {
 }
 
 void loop() {
-    static uint8_t duty = 0; //アナログ出力のデューティ値 
-    static int diff = 1; //増分・減分(使わなくても可) 
+    static uint8_t duty = 0; //アナログ出力のデューティ値
+    static int diff = 1; //増分・減分(使わなくても可)
     Serial.printf("%3d\n", duty);// デューティの表示
 
     if(duty == 0){
