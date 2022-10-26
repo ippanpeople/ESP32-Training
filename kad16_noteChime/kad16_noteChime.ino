@@ -29,7 +29,7 @@ void loop(){
       ledcWriteNote(LEDC_CHANNEL_0, (note_t)melody[thisNote], noteOctaves[thisNote]);
       int pauseBetweenNotes = 1000 / noteDurations[thisNote] * 1.30;
       delay (pauseBetweenNotes);
-      ledcWriteTone(LEDC_CHANNEL_0,0);//演奏を止める。
+      ledcWriteTone(LEDC_CHANNEL_0,0);  //演奏を止める。
     }
   }
   delay(10);
