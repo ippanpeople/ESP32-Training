@@ -92,7 +92,6 @@
                 "/Users/weitonglin/Library/Arduino15/packages/esp32/hardware/esp32/1.0.6/tools/sdk/include/fb_gfx",
                 "/Users/weitonglin/Library/Arduino15/packages/esp32/hardware/esp32/1.0.6/cores/esp32",
                 "/Users/weitonglin/Library/Arduino15/packages/esp32/hardware/esp32/1.0.6/variants/esp32",
-                "/Users/weitonglin/Library/Arduino15/packages/esp32/hardware/esp32/1.0.6/libraries/WiFi/src",
                 "/Users/weitonglin/Library/Arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/1.22.0-97-gc752ad5-5.2.0/xtensa-esp32-elf/include/c++/5.2.0",
                 "/Users/weitonglin/Library/Arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/1.22.0-97-gc752ad5-5.2.0/xtensa-esp32-elf/include/c++/5.2.0/xtensa-esp32-elf",
                 "/Users/weitonglin/Library/Arduino15/packages/esp32/tools/xtensa-esp32-elf-gcc/1.22.0-97-gc752ad5-5.2.0/xtensa-esp32-elf/include/c++/5.2.0/backward",

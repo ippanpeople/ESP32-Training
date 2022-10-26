@@ -1,5 +1,5 @@
 {
-    "sketch": "kad22_WifiLedPwmServer/kad22_WifiLedPwmServer.ino",
+    "sketch": "kad15_toneTimeSignal/kad15_toneTimeSignal.ino",
     "port": "/dev/tty.usbserial-D309KH9G",
     "board": "esp32:esp32:esp32",
     "configuration": "PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=115200,DebugLevel=none"
