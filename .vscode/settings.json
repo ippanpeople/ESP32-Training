@@ -12,4 +12,14 @@
     "arduino.disableTestingOpen": false,
     "arduino.skipHeaderProvider": false,
     "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "files.associations": {
+        "*.html": "html",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "system_error": "cpp",
+        "random": "cpp"
+    },
 }
