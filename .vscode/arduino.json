@@ -1,5 +1,5 @@
 {
-    "sketch": "kad19_function2/kad19_function2.ino",
+    "sketch": "kad25_JsonWeatherOpenMap/kad25_JsonWeatherOpenMap.ino",
     "port": "/dev/tty.usbserial-D309KH9G",
     "board": "esp32:esp32:esp32",
     "configuration": "PSRAM=disabled,PartitionScheme=default,CPUFreq=240,FlashMode=qio,FlashFreq=80,FlashSize=4M,UploadSpeed=115200,DebugLevel=none"
