@@ -6,15 +6,14 @@
 const char ssid[] = "CampusIoT-WiFi";
 const char passwd[] = "0b8b413f2c0fa6aa90e085e9431abbf1fa1b2bd2db0ecf4ae9ce4b2e87da770c";
 
-const int pwmPin = A10;
+const int pwmPin1 = 16;
+const int pwmPin2 = 4;
 
 void setup()
 {
     Serial.begin(115200);
     pinMode(16, OUTPUT); //灯
-
-    ledcSetup(0, 12800, 8);
-    ledcAttachPin(pwmPin, 0);
+    pinMode(4, OUTPUT); //灯
 
     // WiFi接続シーケンス
     Serial.print("Connecting...");
@@ -90,19 +89,19 @@ void loop()
                 //        String rb1 = "02d";
                 //        String rb2 = "02n";
                 String iconStr = icon;
-                // s1.CompareTo(s2)
-                if (iconStr.equals("01d") | iconStr.equals("01n"))
+                iconStr = "01d";
+                if (iconStr.equals("01d") || iconStr.equals("01n"))
                 {
-                    digitalWrite(16, HIGH);
+                    digitalWrite(4, HIGH);
                 }
-                else if (iconStr.equals("02d") | iconStr.equals("02n"))
+                else if (iconStr.equals("02d") || iconStr.equals("02n"))
                 {
-                    ledcWrite(0, 255);
                     digitalWrite(16, HIGH);
+                    digitalWrite(4, HIGH);
                 }
                 else
                 {
-                    ledcWrite(0, 255);
+                    digitalWrite(16, HIGH);
                 }
             }
         }
@@ -114,3 +113,4 @@ void loop()
     }
     delay(5000);
 }
+
